@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <meta name="description" content="PARASHRAM A's personal website. A passionate Full stack developer with a love for creating beautiful and functional websites.">
+    <meta name="keywords" content="PARASHRAM A, Full stack developer, Web Development, Data scientist, Graphic Design">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        main:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 30px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            position: relative;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 50px;
+            height: 2px;
+            background-color: #007bff;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        .interests {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .interests:hover {
+            background-color: #e9ecef;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .contact-info:hover {
+            background-color: #e9ecef;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            color: #888;
+            background-color: #333;
+            color: #fff;
+        }
+        .social-links {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+            font-size: 1.2rem;
+        }
+        .social-links a:hover {
+            color: #007bff;
+            transform: scale(1.1);
+        }
+        .profile-picture {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .profile-picture:hover {
+            transform: rotate(5deg);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            p, li {
+                font-size: 1rem;
+            }
+            .social-links a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <img src="https://d1m75rqqgidzqn.cloudfront.net/blog/wp-content/uploads/2019/09/What-is-data-science-2.jpg" alt="Profile Picture" class="profile-picture">
+            <p>Hello! I'm <strong>PARASHRAM A</strong>, a passionate <em>Full stack developer</em> with a love for creating beautiful and functional websites.</p>
+        </section>
+        <section class="interests">
+            <h2>My Interests</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Data Science</li>
+                <li>Graphic Design</li>
+                <li>Full Stack Development</li>
+            </ul>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Me</h2>
+            <p>You can reach me at <a href="mailto:parash1310@gmail.com">parash1310@gmail.com</a>.</p>
+            <div class="social-links">
+                <a href="https://x.com/parash_ax" target="_blank" aria-label="Twitter">Twitter</a>
+                <a href="https://www.linkedin.com/in/parash1310-a-/" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://github.com/parash-ax" target="_blank" aria-label="GitHub">GitHub</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 PARASH-AX. All rights reserved.</p>
+    </footer>
+</body>
+</html>
